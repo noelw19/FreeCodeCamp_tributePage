@@ -1,47 +1,10 @@
-html, body {
-    margin: 0;
+body html {
+    margin:0px;
     width:100vw;
     height:100vh;
 }
 
-body {
-    display:grid;
-    grid-template-areas:
-        "head head head1"
-        "main main main1"
-        "footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-
-}
-
-header {
-    width:100vw;
-    display:grid;
-    grid-template-columns: repeat(auto-fit, 1fr);
-    justify-self: center;
-    height:20px;
-
-
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-}
 
 #title {
-    grid-area:head;
-    float:left;
-}
 
-nav ul {
-    display:flex;
-    align-items:center;
-    justify-content: space-evenly;
-    margin-right:5px;
-    width:45%;
-}
-#main {
-    grid-area:main;
 }
