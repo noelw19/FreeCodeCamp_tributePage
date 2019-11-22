@@ -12,6 +12,11 @@ header h1{
     justify-content: center;
 }
 
+#jimi {
+    width:auto;
+    height:auto;
+}
+
 
 #title {
     width:100vw;
